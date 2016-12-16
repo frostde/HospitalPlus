@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HospitalPrintPatient</class>
+ <widget class="QWidget" name="HospitalPrintPatient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HospitalPrintPatient</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+color: white; 
+background-color: #151d20;
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>12</y>
+     <width>511</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTextBrowser" name="PatientBrowser">
+        <property name="styleSheet">
+         <string notr="true">background-color: #151d20; 
+color: white;
+border: 0px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="Line" name="line_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+background-color: #0c1416;
+color: white;
+font-size: 19px;
+bottom-margin: 0px;
+}
+
+QPushButton {
+background-color: #151d20;
+font-size: 19px;
+color: #657980;
+border: 1px red;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Print Patients by Priority</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+background-color: #0c1416;
+color: white;
+font-size: 19px;
+bottom-margin: 0px;
+}
+
+QPushButton {
+background-color: #151d20;
+font-size: 19px;
+color: #657980;
+border: 1px red;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Print Patients by Doctor</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+background-color: #0c1416;
+color: white;
+font-size: 19px;
+bottom-margin: 0px;
+}
+
+QPushButton {
+background-color: #151d20;
+font-size: 19px;
+color: #657980;
+border: 1px red;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

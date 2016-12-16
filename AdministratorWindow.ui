@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdministratorWindow</class>
+ <widget class="QWidget" name="AdministratorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>206</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>AdministratorWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+color: white; 
+background-color: #151d20;
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>60</y>
+     <width>611</width>
+     <height>93</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="AddBulkPatientsButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+background-color: #0c1416;
+color: white;
+font-size: 19px;
+bottom-margin: 0px;
+}
+
+QPushButton {
+background-color: #151d20;
+font-size: 19px;
+color: #657980;
+border: 1px red;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Add Patients</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="CancelButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover {
+background-color: #0c1416;
+color: white;
+font-size: 19px;
+bottom-margin: 0px;
+}
+
+QPushButton {
+background-color: #151d20;
+font-size: 19px;
+color: #657980;
+border: 1px red;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Return</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
